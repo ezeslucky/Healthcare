@@ -94,7 +94,7 @@ const RegisterForm = ({ user }: { user: User }) => {
       console.log(error);
     }
 
-    setIsLoading(false);
+   
   };
 
   return (

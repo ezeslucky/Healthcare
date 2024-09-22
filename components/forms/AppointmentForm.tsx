@@ -102,7 +102,7 @@ export const AppointmentForm = ({
           },
           type,
         };
-
+//@ts-ignore
         const updatedAppointment = await updateAppointment(appointmentToUpdate);
 
         if (updatedAppointment) {
@@ -113,7 +113,7 @@ export const AppointmentForm = ({
     } catch (error) {
       console.log(error);
     }
-    setIsLoading(false);
+   
   };
 
   let buttonLabel;
